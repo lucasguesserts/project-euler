@@ -13,6 +13,11 @@ executables:
     source-dirs:         app
     dependencies:
     - project-euler
+  problem-2:
+    main:                problem-2.hs
+    source-dirs:         app
+    dependencies:
+    - project-euler
 
 tests:
   project-euler-test:

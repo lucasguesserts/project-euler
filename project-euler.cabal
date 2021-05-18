@@ -11,6 +11,7 @@ build-type:     Simple
 library
   exposed-modules:
       Problem_1
+      Problem_2
   other-modules:
       Paths_project_euler
   hs-source-dirs:
@@ -21,6 +22,17 @@ library
 
 executable problem-1
   main-is: problem-1.hs
+  other-modules:
+      Paths_project_euler
+  hs-source-dirs:
+      app
+  build-depends:
+      base >=4.7 && <5
+    , project-euler
+  default-language: Haskell2010
+
+executable problem-2
+  main-is: problem-2.hs
   other-modules:
       Paths_project_euler
   hs-source-dirs:
