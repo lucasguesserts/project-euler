@@ -1,0 +1,26 @@
+name:                project-euler
+version:             0.0.0
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+
+executables:
+  problem-1:
+    main:                problem-1.hs
+    source-dirs:         app
+    dependencies:
+    - project-euler
+
+tests:
+  project-euler-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - project-euler

@@ -1,0 +1,12 @@
+# Ignore files without extension
+*
+!*.*
+!*/
+
+*.log
+*.swp
+*.swo
+*.o
+*.hi
+playing_around/
+.stack-work/
