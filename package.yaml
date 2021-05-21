@@ -8,6 +8,12 @@ library:
   source-dirs: src
 
 executables:
+  playing-around:
+    main:                playing-around.hs
+    source-dirs:         app
+    dependencies:
+    - project-euler
+    - random
   problem-1:
     main:                problem-1.hs
     source-dirs:         app
