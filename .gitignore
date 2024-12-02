@@ -1,0 +1,7 @@
+debug/
+target/
+Cargo.lock
+T
+*foo*
+*goo*
+*hoo*
